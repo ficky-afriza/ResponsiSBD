@@ -20,6 +20,29 @@ BEGIN
 END //
 
 
+
+
+
+ChatGPT
+Anda bilang:
+Gambar yang diunggah
+ChatGPT bilang:
+Berikut ini jawaban dari soal-soal yang terdapat pada gambar:
+
+1. Penjelasan Fungsi dari Masing-Masing Komponen:
+Sub Query: Query di dalam query lain, biasanya digunakan untuk mengambil nilai yang akan digunakan oleh query utama. Misalnya untuk membandingkan terhadap hasil rata-rata.
+
+View: Objek database yang menyimpan query sebagai virtual table. Memudahkan dalam pemanggilan data yang kompleks.
+
+Index: Struktur data yang digunakan untuk mempercepat pencarian dan akses data di tabel.
+
+Function: Sekumpulan perintah SQL yang dikemas dalam satu fungsi dan dapat mengembalikan nilai tertentu.
+
+Stored Procedure: Sekumpulan perintah SQL yang disimpan di database dan dapat dipanggil untuk melakukan operasi tertentu secara berulang.
+
+Triggers: Perintah yang secara otomatis dieksekusi ketika terjadi perubahan (INSERT, UPDATE, DELETE) pada tabel.
+
+
 DELIMITER //
 
 4.) CREATE PROCEDURE SP4(IN nilai_lama FLOAT, IN nilai_baru INT)
